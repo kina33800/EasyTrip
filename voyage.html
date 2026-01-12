@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EasyTrip</title>
+    <link rel="stylesheet" href="voyage.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+              <img src="images/logofi.png" alt="Logo EasyTrip">
+            </div>
+            <ul class="navBarLink">
+            <li><a class="btn-connexion" href="#accueil">Accueil</a></li>
+            <li><a class="btn-connexion" href="#destinations">Destinations</a></li>
+            <li><a class="btn-connexion" href="#about">À propos</a></li>
+            <li><a class="btn-connexion" href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn-connexion">
+                <i class="fas fa-user"></i>
+                Connexion
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="Accueil">
+             <div class="hero-content">
+                <h1 class="hero-title">Découvrez le Monde avec EasyTrip</h1>
+                <p class="hero-subtitle">Voyagez facilement vers les plus belles destinations</p>
+                <button class="btn-hero">
+                    <i class="fas fa-compass"></i>
+                    Découvrir nos destinations
+                </button>
+             </div>
+        </section>
+        <section class="destinations" id="destinations">
+            <div class="container">
+                <h2 class="section-title">Destinations Populaires</h2>
+                 <p class="section-subtitle">Explorez nos destinations les plus prisées</p>
+                <div class="destinations-grid">
+                    <!-- PARIS -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="images/paris.jpg" alt="Paris">
+                            <div class="card-overlay">
+                                <button class="btn-card">
+                                    <i class="fas fa-plane"></i>
+                                    Découvrir
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Paris</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> France</p>
+                            <p class="card-description">La ville lumière vous attend avec ses monuments emblématiques</p>
+                            <div class="card-price">
+                                <span class="price">À partir de 299€</span>
+                            </div>
+                        </div>
+                    </div>
+                <!-- TOKYO -->
+                 <div class="destination-card">
+                        <div class="card-image">
+                            <img src="images/tokyo.jpg" alt="Tokyo">
+                            <div class="card-overlay">
+                                <button class="btn-card">
+                                    <i class="fas fa-plane"></i>
+                                    Découvrir
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Tokyo</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Japon</p>
+                            <p class="card-description">Plongez dans la culture japonaise entre tradition et modernité</p>
+                            <div class="card-price">
+                                <span class="price">À partir de 899€</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- NY -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="images/NY.jpg" alt="New York">
+                            <div class="card-overlay">
+                                <button class="btn-card">
+                                    <i class="fas fa-plane"></i>
+                                    Découvrir
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>New York</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> États-Unis</p>
+                            <p class="card-description">La ville qui ne dort jamais vous ouvre ses portes</p>
+                            <div class="card-price">
+                                <span class="price">À partir de 699€</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bali -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="images/bali.jpeg" alt="Bali">
+                            <div class="card-overlay">
+                                <button class="btn-card">
+                                    <i class="fas fa-plane"></i>
+                                    Découvrir
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Bali</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Indonésie</p>
+                            <p class="card-description">Paradis tropical entre plages et temples mystiques</p>
+                            <div class="card-price">
+                                <span class="price">À partir de 799€</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dubaï -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="images/dubai.jpg" alt="Dubaï">
+                            <div class="card-overlay">
+                                <button class="btn-card">
+                                    <i class="fas fa-plane"></i>
+                                    Découvrir
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Dubaï</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Émirats Arabes Unis</p>
+                            <p class="card-description">Luxe et démesure au cœur du désert</p>
+                            <div class="card-price">
+                                <span class="price">À partir de 599€</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Barcelone -->
+                    <div class="destination-card">
+                        <div class="card-image">
+                            <img src="images/barcelone.jpeg" alt="Barcelone">
+                            <div class="card-overlay">
+                                <button class="btn-card">
+                                    <i class="fas fa-plane"></i>
+                                    Découvrir
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Barcelone</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Espagne</p>
+                            <p class="card-description">Architecture de Gaudí et ambiance méditerranéenne</p>
+                            <div class="card-price">
+                                <span class="price">À partir de 249€</span>
+    </div>
+</section>
+<!-- SECTION POURQUOI NOUS CHOISIR -->
+<section class="why-us" id="about">
+    <div class="container">
+        <h2 class="section-title">Pourquoi choisir EasyTrip ?</h2>
+        <p class="section-subtitle">Votre satisfaction est notre priorité</p>
+        
+        <div class="features-grid">
+            <!-- Avantage 1 -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-tag"></i>
+                </div>
+                <h3>Meilleurs Prix</h3>
+                <p>Nous négocions les meilleurs tarifs pour vous garantir des prix imbattables sur toutes nos destinations</p>
+            </div>
+
+            <!-- Avantage 2 -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Support 24/7</h3>
+                <p>Notre équipe est disponible jour et nuit pour répondre à toutes vos questions et vous accompagner</p>
+            </div>
+
+            <!-- Avantage 3 -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Voyage Sécurisé</h3>
+                <p>Vos réservations sont protégées et sécurisées. Voyagez l'esprit tranquille avec nos garanties</p>
+            </div>
+
+            <!-- Avantage 4 -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-globe-americas"></i>
+                </div>
+                <h3>300+ Destinations</h3>
+                <p>Explorez plus de 300 destinations dans le monde entier, des plages paradisiaques aux villes mythiques</p>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+<footer id="contact">
+    <div class="footer-container">
+        <!-- Colonne 1 : Logo et description -->
+        <div class="footer-column">
+            <div class="footer-logo">
+                <img src="images/logofi.png" alt="Logo EasyTrip">
+            </div>
+            <p class="footer-desc">Votre partenaire de confiance pour des voyages inoubliables à travers le monde.</p>
+            <div class="footer-socials">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <!-- Colonne 2 : Liens rapides -->
+        <div class="footer-column">
+            <h3>Liens Rapides</h3>
+            <ul class="footer-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Colonne 3 : Destinations -->
+        <div class="footer-column">
+            <h3>Destinations Populaires</h3>
+            <ul class="footer-links">
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+                <li><a href="#">New York</a></li>
+                <li><a href="#">Bali</a></li>
+                <li><a href="#">Dubai</a></li>
+                <li><a href="#">Barcelone</a></li>
+            </ul>
+        </div>
+
+        <!-- Colonne 4 : Contact -->
+        <div class="footer-column">
+            <h3>Contact</h3>
+            <ul class="footer-contact">
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span> Rue du Voyage, Bordeaux</span>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <span>+33 1 23 45 67 89</span>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <span>contact@easytrip.com</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Barre de copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2026 EasyTrip. Tous droits réservés.</p>
+    </div>
+</footer>
+</body>
+</html>
